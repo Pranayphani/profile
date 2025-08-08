@@ -1,0 +1,19 @@
+.welcome-msg {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.projects {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 200px;
+  font-size: 22px;
+  background-color: red;
+  transition: transform 0.3s ease;
+}
+.projects:hover {
+  /* width: 250px;
+  font-size: 28px;
+  transition: width 0.3s ease, font-size 0.3s ease; */
+  transform: scale(1.2);
+}

@@ -1,0 +1,17 @@
+.contact-section {
+  background-color: rgb(64, 61, 61);
+  color: rgb(213, 197, 197);
+}
+.contact-msg {
+  font-size: 32px;
+  font-weight: bold;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  color: rgb(213, 197, 197);
+}
+.contact-link {
+  color: rgb(82, 137, 82);
+  text-decoration: none;
+}

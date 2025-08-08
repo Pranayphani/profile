@@ -1,0 +1,16 @@
+.about-section {
+  background-color: rgb(241, 239, 239);
+}
+.skill {
+  text-align: center;
+  width: 100px;
+  padding: 8px 10px;
+  background-color: rgb(70, 160, 195);
+  color: darkslategray;
+  border: none;
+  border-radius: 6px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}

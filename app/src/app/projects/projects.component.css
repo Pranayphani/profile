@@ -1,0 +1,32 @@
+.project-section {
+  /* background-color: rgb(241, 239, 239); */
+}
+.project-card {
+  border-radius: 16px;
+  padding: 24px;
+  background-color: rgb(30, 30, 47);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.project-name {
+  color: rgb(241, 196, 15);
+  font-size: 24px;
+  font-weight: bold;
+}
+.live-link {
+  border-radius: 8px;
+  margin-left: 12px;
+  width: 112px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(46, 204, 113);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.live-link:hover {
+  background-color: #27ae60;
+  transform: scale(1.05);
+}
