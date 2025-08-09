@@ -5,12 +5,38 @@
   text-align: center;
   width: 100px;
   padding: 8px 10px;
-  background-color: rgb(70, 160, 195);
-  color: darkslategray;
+  background-color: rgb(83, 117, 254);
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
 }
 p {
   margin: 0px;
   padding: 0px;
+  font-size: 24px;
+}
+.about-me h2,
+.skills h1,
+.experience h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.description {
+  font-size: 24px;
+}
+.certificate {
+  margin: 12px;
+  padding: 8px 8px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  background-color: red;
+  transition: transform 0.3s ease;
+}
+
+.certificate:hover {
+  transform: scale(1.2);
 }
