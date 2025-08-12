@@ -22,3 +22,17 @@
 .nav-link.active {
   color: rgb(189, 117, 129);
 }
+.form-select {
+  color: rgb(85, 26, 139);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  padding-right: 1.7rem;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg viewBox='0 0 16 16' fill='rgb(85, 26, 139)' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 5l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+.custom-toggle::after {
+  margin-left: 0.1rem; /* smaller gap */
+}
