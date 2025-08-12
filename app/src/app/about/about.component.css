@@ -40,3 +40,8 @@ p {
 .certificate:hover {
   transform: scale(1.2);
 }
+@media (min-width: 768px) {
+  .skills-responsive {
+    width: 50%;
+  }
+}
